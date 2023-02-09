@@ -14,7 +14,7 @@ function HomePage(){
             variant="gradient"
             gradient={{ from: 'indigo', to: 'cyan', deg: 45 }}
         >
-            Bookmarkapalooza
+            FreeSources
         </Text>
         <Text size={28} align="center">
             <TypeIt
