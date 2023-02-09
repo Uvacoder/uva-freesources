@@ -7,7 +7,7 @@ function HomePage(){
     const router = useRouter();
 
     return (
-       
+       <>
         <Text 
             size={120} 
             align="center"
@@ -36,14 +36,14 @@ function HomePage(){
             <Grid.Col md={6}>
                 
                 <Card shadow="sm" p="lg" radius="md" style={{ backgroundColor: "#3b3b3b", color: "#fcf0f0" }}>
-                    <UnstyledButton onClick={ () => router.push(href: "/resources/portfolios/design")}>
+                  <UnstyledButton onClick={ () => router.push(href: "/resources/portfolios/design")}>
                     <Group align="center">
                         <Avatar color="blue">
                             <IconBook2 size={24} />
                         </Avatar>
                         <Text size="lg" weight={600}>Ready to use</Text>
                     </Group>
-                    </UnstyledButton>
+                  </UnstyledButton>
                     <Space h="lg" />
                     <Space h="lg" />
                     <Text size={16}>
