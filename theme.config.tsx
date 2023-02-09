@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
     content: null
   },
   sidebar: {
-    defaultMenuCollapseLevel: infinity
+    defaultMenuCollapseLevel: Infinity
   },
   primaryHue: { dark: 68, light: 200 }
 }
