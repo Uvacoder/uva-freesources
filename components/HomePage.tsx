@@ -1,5 +1,6 @@
 import TypeIt from "typeit-react";
-import { useRouter } from 'next/router'
+import React, {Fragment} from 'react';
+import { useRouter } from 'next/router';
 import { UnstyledButton, Text, Space, Grid, Card, Avatar, Group, Paper } from '@mantine/core';
 import { IconBook2, IconBrandReact, IconBrandHtml5, IconBrandCss3, IconBrandJavascript } from '@tabler/icons';
 
@@ -7,7 +8,7 @@ function HomePage(){
     const router = useRouter();
 
     return (
-       <>
+       <Fragment>
         <Text 
             size={120} 
             align="center"
@@ -87,7 +88,7 @@ function HomePage(){
         <Space h="md" />
         <Text color="dimmed" size={12}>Last Update {new Date().toLocaleString('en-GB') || ""}</Text>
 
-        </>
+        </Fragment>
     )
 }
     
