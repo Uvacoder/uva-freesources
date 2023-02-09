@@ -42,7 +42,7 @@ function HomePage(){
                         <Avatar color="blue">
                             <IconBook2 size={24} />
                         </Avatar>
-                        <Text size="lg" weight={600}>My Blogroll</Text>
+                        <Text size="lg" weight={600} color="0040c9">My Blogroll</Text>
                     </Group>
                   </UnstyledButton>
                     <Space h="lg" />
