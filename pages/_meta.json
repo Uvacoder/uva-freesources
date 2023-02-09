@@ -14,7 +14,6 @@
   "links": {
     "title": "Links",
     "type": "menu",
-    "display": "hidden",
     "items": {
       "sociallinks" : { "title": "SocialLinks", "href":"/links/sociallinks"},
       "projects" : { "title": "Projects", "href":"/links/projects"}
@@ -22,7 +21,6 @@
   "blogroll": {
     "title": "Blogroll",
     "type": "menu",
-    "display": "hidden",
     "items": {
       "design" : { "title": "Design", "href":"/blogroll/design"},
       "articles" : { "title": "Articles", "href":"/blogroll/articles"}
@@ -30,7 +28,6 @@
   "resources": {
     "title": "Resources",
     "type": "menu",
-    "display": "hidden",
     "items": {
       "general" : { "title": "General", "href":"/resources/general/FreeIll"},
       "html" : { "title": "Html", "href":"/resources/html/animations"},
