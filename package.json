@@ -1,7 +1,7 @@
 {
-  "name": "reemodev-website",
+  "name": "freesources-website",
   "version": "2.0.2",
-  "description": "reemodev website",
+  "description": "freesources website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
