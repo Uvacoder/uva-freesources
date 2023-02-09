@@ -2,7 +2,7 @@ import TypeIt from "typeit-react";
 import React, {Fragment} from 'react';
 import { useRouter } from 'next/router';
 import { UnstyledButton, Text, Space, Grid, Card, Avatar, Group, Paper } from '@mantine/core';
-import { IconBook2, IconBrandReact, IconBrandHtml5, IconBrandCss3, IconBrandJavascript } from '@tabler/icons';
+import { IconBook2, IconBrandReact, IconBrandHtml5, IconBrandCss3, IconBrandJavascript, IconTools } from '@tabler/icons';
 
 function HomePage(){
     const router = useRouter();
@@ -62,7 +62,8 @@ function HomePage(){
                         { icon: <IconBrandReact/>, title: "React",  color:"blue", href: "/resources/react/React/reactCss" },
                         { icon: <IconBrandHtml5/>, title: "HTML",  color: "red", href: "/resources/html/animations" },
                         { icon: <IconBrandCss3/>, title: "CSS",  color: "indigo", href: "/resources/css/fonts" },
-                        { icon: <IconBrandJavascript/>, title: "JS",  color: "yellow", href: "/resources/javascript/javascript_utili" }
+                        { icon: <IconBrandJavascript/>, title: "JS",  color: "yellow", href: "/resources/javascript/javascript_utili" },
+                        { icon: <IconTools/>, title: "Tools",  color: "cyan", href: "/resources/tools/color" },
                         // <IconBook/>
                     ]   
                     .map( (v,i) => (
