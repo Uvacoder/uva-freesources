@@ -2,7 +2,7 @@ import TypeIt from "typeit-react";
 import React, {Fragment} from 'react';
 import { useRouter } from 'next/router';
 import { UnstyledButton, Text, Space, Grid, Card, Avatar, Group, Paper } from '@mantine/core';
-import { IconBook2, IconBrandReact, IconBrandHtml5, IconBrandCss3, IconBrandJavascript, IconTools, IconNotes, IconHomeShare  } from '@tabler/icons';
+import { IconBook2, IconBrandReact, IconBrandHtml5, IconBrandCss3, IconBrandJavascript, IconTools, IconNotes, IconUserCircle  } from '@tabler/icons';
 
 function HomePage(){
     const router = useRouter();
@@ -37,7 +37,7 @@ function HomePage(){
             <Grid.Col md={6}>
                 
                 <Card shadow="sm" p="lg" radius="md" style={{ backgroundColor: "#3b3b3b", color: "#fcf0f0" }}>
-                  <UnstyledButton onClick={ () => router.push('/resources/blogroll/design')}>
+                  <UnstyledButton onClick={ () => router.push('/blogroll/design')}>
                     <Group align="center">
                         <Avatar color="blue">
                             <IconBook2 size={24} />
@@ -65,7 +65,7 @@ function HomePage(){
                         { icon: <IconBrandJavascript/>, title: "JS",  color: "yellow", href: "/resources/javascript/javascript_utili" },
                         { icon: <IconTools/>, title: "Tools",  color: "cyan", href: "/resources/tools/color" },
                         { icon: <IconNotes/>, title: "Notes",  color: "purple", href: "/resources/notes/history" },
-                        { icon: <IconHomeShare/>, title: "SocialLinks",  color: "green", href: "/links/sociallinks" },
+                        { icon: <IconUserCircle/>, title: "SocialLinks",  color: "green", href: "/links/sociallinks" },
                         // <IconBook/>
                     ]   
                     .map( (v,i) => (
