@@ -7,7 +7,7 @@ function HomePage(){
     const router = useRouter();
 
     return (
-        <>
+       
         <Text 
             size={120} 
             align="center"
