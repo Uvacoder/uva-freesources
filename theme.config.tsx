@@ -5,7 +5,7 @@ const config: DocsThemeConfig = {
   logo: (
     <div style={{ display: "flex", justifyContent:"center", alignItems:"center"}}>
       <img src="img/reelogo.ico" style={{ display: "inline-block", width: "28px"}}></img>
-      <h5 style={{ marginLeft: "8px"}}><b>Reeodev</b></h5>
+      <h5 style={{ marginLeft: "8px"}}><b>FreeSources</b></h5>
     </div>
   ),
   project: {
@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/reeodev/reeodev.github.io',
   head: (
     <>
-      <title>Reeodev</title>
+      <title>FreeSources</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Reeodev" />
       <meta property="og:description" content="For your design and development references." />
@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
     </>
   ),
   footer: {
-    text: 'Reeodev',
+    text: 'FreeSources',
   },
   editLink: {
     text : null
