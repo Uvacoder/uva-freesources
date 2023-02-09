@@ -9,9 +9,9 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: 'https://github.com/reeodev/reeodev.github.io',
+    link: 'https://freesoyrces.vercel.app',
   },
-  docsRepositoryBase: 'https://github.com/reeodev/reeodev.github.io',
+  docsRepositoryBase: 'https://github.com/uvacoder/uva-freesources-4303',
   head: (
     <>
       <title>FreeSources</title>
