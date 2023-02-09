@@ -1,4 +1,5 @@
-# https://nextra.site
+# - https://nextra.site
+- https://github.com/shuding/nextra
 
 For your design and development references.
 
