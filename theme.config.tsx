@@ -4,27 +4,27 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: (
     <div style={{ display: "flex", justifyContent:"center", alignItems:"center"}}>
-      <img src="img/reelogo.ico" style={{ display: "inline-block", width: "28px"}}></img>
+      <img src="img/favicon.ico" style={{ display: "inline-block", width: "28px"}}></img>
       <h5 style={{ marginLeft: "8px"}}><b>FreeSources</b></h5>
     </div>
   ),
   project: {
-    link: 'https://freesoyrces.vercel.app',
+    link: 'https://freesources.vercel.app',
   },
   docsRepositoryBase: 'https://github.com/uvacoder/uva-freesources-4303',
   head: (
     <>
       <title>FreeSources</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Reeodev" />
+      <meta property="og:title" content="FreeSources" />
       <meta property="og:description" content="For your design and development references." />
       <meta property="og:locale" content="en_GB"/>
       <meta property="og:type" content="website"/>
       <meta property="og:image" content="https://reeodev.github.io/img/reelogo.ico"/>
       <meta property="og:image:alt" content="Studio logo"/>
 
-      <link rel="mask-icon" href="img/reelogo.ico" color="#5bbad5"></link>
-      <link rel="icon" type="image/x-icon" href="/img/reelogo.ico"></link>
+      <link rel="mask-icon" href="img/favicon.ico" color="#5bbad5"></link>
+      <link rel="icon" type="image/x-icon" href="/img/favicon.ico"></link>
 
       <meta property="og:url" content="https://reeodev.github.io/"></meta>
     </>
