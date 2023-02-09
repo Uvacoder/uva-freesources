@@ -1,4 +1,5 @@
-# Reeodev
+# https://nextra.site
+
 For your design and development references.
 
 ## Content
@@ -6,14 +7,3 @@ For your design and development references.
 - Over 200 related libraries / sites covered.  
 - Frequently update.  
 
-## Future content
-- [x] Site deploy
-- [x] Content update
-- [x] Compoments tools
-
-## Road map
-- [x] Support ts
-- [x] docusaurus to nextra
-
-## website
-http://reeodev.github.io
