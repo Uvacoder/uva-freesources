@@ -20,7 +20,7 @@
       "css" : { "title": "CSS", "href":"/resources/css/fonts"},
       "javascript" : { "title": "Javascript", "href":"/resources/javascript/javascript_utili"},
       "react" : { "title": "React", "href":"/resources/react/React/reactCss"},
-      "portfolios" : { "title": "Portfolios", "href":"/resources/portfolios/design"} 
+      "blogroll" : { "title": "Blogroll", "href":"/resources/blogroll/design"} 
     }
   }
 }
