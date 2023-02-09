@@ -11,6 +11,13 @@
     "type": "page",
     "display": "hidden"
   },
+  "links": {
+    "title": "Links",
+    "type": "menu",
+    "items": {
+      "sociallinks" : { "title": "SocialLinks", "href":"/links/sociallinks"},
+      "projects" : { "title": "Projects", "hreff":"/links/projects"}
+  },
   "resources": {
     "title": "Resources",
     "type": "menu",
