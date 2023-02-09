@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reeodev/reeodev.github.io.git"
+    "url": "git+https://github.com/uvacoder/uva-freesources-4303.git"
   },
   "author": "reemo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reeodev/reeodev.github.io/issues"
+    "url": "https://github.com/uvacoder/uva-freesources-4303/issues"
   },
-  "homepage": "https://github.com/reeodev/reeodev.github.io",
+  "homepage": "https://freesources.vercel.app",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@mantine/core": "^5.9.5",
