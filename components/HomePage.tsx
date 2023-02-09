@@ -42,13 +42,13 @@ function HomePage(){
                         <Avatar color="blue">
                             <IconBook2 size={24} />
                         </Avatar>
-                        <Text size="lg" weight={600} color="0040c9">My Blogroll</Text>
+                        <Text size="lg" weight={600} color="indigo">My Blogroll</Text>
                     </Group>
                   </UnstyledButton>
                     <Space h="lg" />
                     <Space h="lg" />
                     <Text size={16}>
-                        Up to date resources and website that may enhance your working efficiency and save your time!
+                        Some of my favorite bookmarks and links, my blogroll, resources, projects and more!
                     </Text>
 
                 </Card>
