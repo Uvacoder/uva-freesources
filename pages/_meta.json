@@ -6,10 +6,9 @@
     "title": "Home",
     "type": "page"
   },
-  "about": {
-    "title": "About",
-    "type": "page",
-    "display": "hidden"
+  "--": {
+    "type": "separator",
+    "title": "A Separator"
   },
   "links": {
     "title": "Links",
@@ -36,5 +35,10 @@
       "react" : { "title": "React", "href":"/resources/react/React/reactCss"},
       "tools" : { "title": "Tools", "href":"/resources/tools/color"}
     }
-  }
+  },
+  "about": {
+    "title": "About",
+    "type": "page",
+    "display": "hidden"
+  },
 }
