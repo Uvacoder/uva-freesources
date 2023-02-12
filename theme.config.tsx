@@ -51,8 +51,7 @@ const config: DocsThemeConfig = {
       }
       return <>👉 {title}</>;
     },
-  },
-  },
+  }
   primaryHue: { dark: 68, light: 200 }
 }
 
