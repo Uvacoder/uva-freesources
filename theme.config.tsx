@@ -39,7 +39,7 @@ const config: DocsThemeConfig = {
     content: null
   },
   sidebar: {
-    defaultMenuCollapseLevel: Infinity
+    defaultMenuCollapseLevel: Infinity,
     titleComponent: ({ title, type }) => {
       if (type === 'separator') {
         return (
